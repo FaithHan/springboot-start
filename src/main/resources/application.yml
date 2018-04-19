@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/demotest
+    username: root
+    password: root
+    initialization-mode: always
+    schema:
+      - classpath:sql/user-schema.sql
+    data:
+      - classpath:sql/user-data.sql
+mybatis:
+  mapper-locations: classpath:cn/faithhan/springbootstart/mapper/xml/*Mapper.xml
