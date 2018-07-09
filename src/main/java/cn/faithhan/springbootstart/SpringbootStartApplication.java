@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan(value = {"cn.faithhan.springbootstart.mapper"})
+//@MapperScan(value = {"cn.faithhan.springbootstart.mapper"})
 public class SpringbootStartApplication {
 
     public static void main(String[] args) {
